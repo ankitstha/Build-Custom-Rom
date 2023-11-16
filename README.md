@@ -43,7 +43,7 @@ source ~/.profile
 Several packages are needed to build a Custom ROM. Run this:
 ```bash
 cd ~/
-sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git git-lfs gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5 libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-gtk3-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev
+sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git git-lfs gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5 libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-gtk3-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev python-is-python3
 ```
 ## 3. Create the directories
 You’ll need to set up some directories in your build environment
@@ -90,7 +90,7 @@ Clone them to the respective directories. For example, clone "android_device_one
 git clone https://github.com/LineageOS/android_device_oneplus_lemonade -b lineage-20 ~/android/device/oneplus/lemonade
 ```
 ## Kernel
-- [android/kernel/oneplus/sm8150](https://github.com/LineageOS/android_kernel_oneplus_sm8350/tree/lineage-20)
+- [android/kernel/oneplus/sm8350](https://github.com/LineageOS/android_kernel_oneplus_sm8350/tree/lineage-20)
 ## Vendor Trees
 - [android/vendor/oneplus/lemonade](https://github.com/TheMuppets/proprietary_vendor_oneplus_lemonade)
 - [android/vendor/oneplus/sm8350-common](https://github.com/TheMuppets/proprietary_vendor_oneplus_sm8350-common)
@@ -137,4 +137,4 @@ make installclean
 Dirty build is recommended for faster builds (unless no major change is done).
 
 ## Credits
-- [Lineage OS](https://lineageosroms.com/guacamoleb/)
+- [Lineage OS](https://lineageosroms.com/lemonade/)
