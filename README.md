@@ -68,7 +68,7 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
 ## 6. Initialize the source repository and download
-Get into the android directory that we created and initialize the branch of repo that you wish to build. You can find the link to initialize the repo in the manifest of the particular ROM. As I am considering LineageOS ROM for example, you can look at their manifest from [here](https://github.com/LineageOS/android/tree/lineage-20.0). LineageOS calls this particular repo as "android" but for other ROMs it is usually called as "manifest". Just for reference you can look at the manifest of Pixel Experience from [here](https://github.com/PixelExperience/manifest).
+Get into the android directory that we created and initialize the branch of repo that you wish to build. You can find the link to initialize the repo in the manifest of the particular ROM. As I am considering LineageOS ROM for example, you can look at their manifest from [here](https://github.com/LineageOS/android/tree/lineage-20.0). LineageOS calls this particular repo as "android" but for other ROMs it is usually called as "manifest".
 ```bash
 cd ~/android
 repo init -u https://github.com/LineageOS/android.git -b lineage-20.0 --git-lfs
@@ -81,7 +81,7 @@ Note that repo sync will take time depending on your internet connection.
 
 ## 7. Prepare the device-specific code
 To build a ROM for a specific device, we usually need three device trees i.e., device trees, kernel and vendor trees. 
-For OnePlus 9 we have 2, 1 and 2 directories respectively in device trees, kernel and vendor tree. The number of directories might vary from device to device. You can easily find that by checking your device specific trees from Lineage OS GitHub (if available). Note that device codename for OnePlus 9 is lemonade.  You need to clone all the directories below from GitHub into your source code. For OnePlus 7 the directories are:
+For OnePlus 9 we have 2, 1 and 2 directories respectively in device trees, kernel and vendor tree. The number of directories might vary from device to device. You can easily find that by checking your device specific trees from Lineage OS GitHub (if available). Note that device codename for OnePlus 9 is lemonade.  You need to clone all the directories below from GitHub into your source code. For OnePlus 9 the directories are:
 ## Device trees
 - [android/device/oneplus/lemonade](https://github.com/LineageOS/android_device_oneplus_lemonade)
 - [android/device/oneplus/sm8350-common](https://github.com/LineageOS/android_device_oneplus_sm8350-common/tree/lineage-20) <br /> <br />
