@@ -81,7 +81,7 @@ Note that repo sync will take time depending on your internet connection.
 
 ## 7. Prepare the device-specific code
 To build a ROM for a specific device, we usually need three device trees i.e., device trees, kernel and vendor trees. 
-For OnePlus 7 we have 2, 1 and 2 directories respectively in device trees, kernel and vendor tree. The number of directories might vary from device to device. You can easily find that by checking your device specific trees from Lineage OS GitHub (if available). Note that device codename for OnePlus 7 is guacamoleb.  You need to clone all the directories below from GitHub into your source code. For OnePlus 7 the directories are:
+For OnePlus 9 we have 2, 1 and 2 directories respectively in device trees, kernel and vendor tree. The number of directories might vary from device to device. You can easily find that by checking your device specific trees from Lineage OS GitHub (if available). Note that device codename for OnePlus 9 is lemonade.  You need to clone all the directories below from GitHub into your source code. For OnePlus 7 the directories are:
 ## Device trees
 - [android/device/oneplus/lemonade](https://github.com/LineageOS/android_device_oneplus_lemonade)
 - [android/device/oneplus/sm8350-common](https://github.com/LineageOS/android_device_oneplus_sm8350-common/tree/lineage-20) <br /> <br />
@@ -95,7 +95,7 @@ git clone https://github.com/LineageOS/android_device_oneplus_lemonade -b lineag
 - [android/vendor/oneplus/lemonade](https://github.com/TheMuppets/proprietary_vendor_oneplus_lemonade)
 - [android/vendor/oneplus/sm8350-common](https://github.com/TheMuppets/proprietary_vendor_oneplus_sm8350-common)
 ## Other necessary repositories
-There might be other repositories required to build a ROM. For example in LineageOS 20 (Android 13) for OnePlus 7, couple of extra repositories are used, which are: [android/hardware/oplus](https://github.com/LineageOS/android_hardware_oplus/tree/lineage-20) and a firmware reposiory which is linked [here](https://gitlab.com/the-muppets/proprietary_vendor_firmware/-/tree/lineage-20). 
+There might be other repositories required to build a ROM. For example in LineageOS 20 (Android 13) for OnePlus 9, couple of extra repositories are used, which are: [android/hardware/oplus](https://github.com/LineageOS/android_hardware_oplus/tree/lineage-20) and a firmware reposiory which is linked [here](https://gitlab.com/the-muppets/proprietary_vendor_firmware/-/tree/lineage-20). 
 ## 8.Building the ROM
 Next we can start building the ROM by using the following commands. These commands might be different for different ROMs. Check the ROM manifest for exact commands.
 The format for LineageOS is:
